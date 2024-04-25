@@ -12,7 +12,9 @@ module.exports = {
         primary3: "#D9D9D9",
         borderColor: "#787878",
         bgColor: "#EDEDED",
-        bgGreen: "#023423"
+        bgGreen: "#023423",
+        primary5: "#65106E",
+        primary6: "#C41ED6",
       }
     },
   },

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Top Nav -->
+  <div class="bg-fuchsia-950 w-full p-4">
+    <div class="container mx-auto flex justify-center md:justify-between">
+      <p class="text-white text-sm hidden md:flex">
+        <img src="assets/img/call.svg" class="mr-1" alt="">
+        +62 895 369 233 890</p>
+      <p class="text-white text-sm">Kuota terbatas, buruan daftar sekarang juga!</p>
+      <p class="text-white text-sm hidden md:flex">
+        <img src="assets/img/location.svg" class="mr-1" alt="">
+        Lamongan, Jawa Timur
+      </p>
+    </div>
+  </div>
+  <!-- Top Nav -->
+
+  <!-- Navbar -->
+  <nav class="bg-white dark:bg-gray-900 w-full start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SIBS</span> -->
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <a href="https://shorturl.at/movxI" class="text-gray-900 border-2 border-fuchsia-700 focus:outline-none font-semibold rounded-lg text-sm px-4 py-2 text-center dark:bg-fuchsia-700 dark:hover:bg-fuchsia-700 dark:focus:ring-fuchsia-900">Daftar Sekarang</a>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="index.html" class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-fuchsia-800 md:p-0 md:dark:hover:text-fuchsia-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+        </li>
+        <li>
+          <a href="index.html" class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-fuchsia-800 md:p-0 md:dark:hover:text-fuchsia-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Prestasi</a>
+        </li>
+        <li>
+          <a href="index.html" class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-fuchsia-800 md:p-0 md:dark:hover:text-fuchsia-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Alur Pendaftaran</a>
+        </li>
+        <li>
+          <a href="index.html" class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-fuchsia-800 md:p-0 md:dark:hover:text-fuchsia-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Jalur Pendaftaran</a>
+        </li>
+        <li>
+          <a href="index.html" class="font-bold block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-fuchsia-800 md:p-0 md:dark:hover:text-fuchsia-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Biaya Pendaftaran</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <main class="relative bg-gray-200">
+    <div class="absolute top-0 z-0 w-full h-[360px] sm:h-[260px] lg:h-[220px]">
+      <figure class="h-full w-full">
+        <img alt="background" loading="lazy" width="2160" height="427" decoding="async" data-nimg="1" class="object-cover h-full object-left" style="color:transparent" src="https://ppdbjatim.net/images/backgrounds/purple-graphic.png" />
+      </figure>
+      <figure class="absolute left-8 top-1/3 hidden w-12 xl:block">
+        <img alt="particle" loading="lazy" width="256" height="256" decoding="async" data-nimg="1" class style="color:transparent" src="https://ppdbjatim.net/images/particles/cube-green.png" />
+      </figure>
+      <figure class="absolute right-4 top-1/2 w-16">
+        <img alt="particle" loading="lazy" width="256" height="256" decoding="async" data-nimg="1" class style="color:transparent" src="https://ppdbjatim.net/images/particles/triangle-green.png" />
+      </figure>
+      <div class="pointer-events-none absolute inset-0 bg-noise mix-blend-overlay"></div>
+    </div>
+    <section class="relative">
+      <div class="layout min-h-main space-y-6 py-12">
+        <h1 class="font-averta text-4xl font-bold text-white">Ketentuan PPDB Jatim
+          <!-- -->2024
+        </h1>
+        <div dir="ltr" data-orientation="horizontal" class="space-y-12">
+          <div role="tablist" aria-orientation="horizontal" class="items-center rounded-md p-1 flex w-fit flex-wrap justify-start text-start shadow-md bg-white" tabindex="-1" data-orientation="horizontal" style="outline:none">
+            <button type="button" role="tab" aria-selected="true" aria-controls="radix-:R1a96:-content-umum" data-state="active" id="radix-:R1a96:-trigger-umum" class="inline-flex min-w-[100px] items-center rounded-[0.3rem] px-3 py-1.5 text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 bg-indigo-100 text-indigo-500 shadow-sm justify-start sm:justify-center" tabindex="-1" data-orientation="horizontal" data-radix-collection-item>Ketentuan Umum</button>
+          </div>
+          <div class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose prose max-w-none font-averta" style="animation-duration:0s">
+            <ol class="list-decimal md:px-8 md:mt-3 px-5 mt-1 text-justify">
+              <li class="p-1">Calon peserta didik baru SMA atau SMK berusia paling tinggi 21 (dua puluh satu) tahun pada tanggal 1 Juli 2024 dengan dibuktikan akta kelahiran atau surat keterangan lahir yang dikeluarkan oleh pihak yang berwenang dan dilegalisasi oleh lurah/kepala desa atau pihak yang berwenang sesuai dengan domisili calon peserta didik baru;</li>
+              <li class="p-1">Calon peserta didik baru jenjang SMA atau SMK telah menyelesaikan kelas 9 (sembilan) SMP, MTs, atau bentuk lain yang sederajat atau lanjutan dari hasil belajar yang diakui sama atau setara SMP atau MTs dibuktikan dengan ijazah atau dokumen lain yang menyatakan kelulusan misalnya surat keterangan lulus (SKL).</li>
+              <li class="p-1">Calon peserta didik baru jenjang SMA atau SMK merupakan lulusan SMP, MTs, atau bentuk lain yang sederajat atau lanjutan dari hasil belajar yang diakui sama atau setara SMP atau MTs tahun 2024 atau lulusan tahun sebelumnya;</li>
+              <li class="p-1">Calon peserta didik baru jenjang SMA atau SMK wajib terdaftar dalam kartu keluarga (KK) baik pada wilayah dalam zonasi, wilayah luar zonasi, atau wilayah luar zonasi yang berbatasan, di wilayah provinsi Jawa Timur atau kabupaten/kota dari luar provinsi Jawa Timur yang langsung berbatasan dengan kabupaten/kota provinsi di wilayah Jawa Timur;</li>
+              <li class="p-1">Wilayah luar zonasi yang berbatasan yang dimaksud pada nomor 4 adalah wilayah luar zonasi yang berbatasan langsung dengan wilayah zonasi lain dalam 1 (satu) kabupaten/kota, luar kabupaten/kota, dan/atau luar provinsi Jawa Timur;</li>
+              <li class="p-1">Kartu Keluarga (KK) yang dimaksud pada nomor 4, diterbitkan paling singkat 1 (satu) tahun sebelum tanggal pendaftaran tahap I PPDB tahun 2024 tanggal 10 Juni 2024, dan dapat dengan memanfaatkan data kependudukan dan catatan sipil yang disediakan oleh Kementerian Dalam Negeri;</li>
+              <li class="p-1">Dalam hal kartu keluarga sebagaimana dimaksud pada nomor 4 tidak dimiliki oleh calon peserta didik baru karena keadaan tertentu, maka dapat diganti dengan surat keterangan domisili (SKD) yang diterbitkan oleh lurah/kepala desa atau pejabat setempat lain yang berwenang tanpa dibatasi masa mulai berdomisili, dan melampirkan foto copy surat keputusan dari Badan Penanggulangan Bencana Daerah (BPBD) setempat tentang status keadaan bencana.;</li>
+              <li class="p-1">
+                <strong>Keadaan tertentu</strong> sebagaimana dimaksud pada nomor 7 meliputi: <ul class="list-disc ml-4">
+                  <li class="p-1">bencana alam; dan/atau</li>
+                  <li class="p-1">bencana sosial, di antaranya pengungsi akibat kerusuhan atau konflik sosial</li>
+                </ul>
+                <i>
+                  <strong> Catatan:</strong> Menurut Undang-Undang No. 24/2007 tentang Penanggulangan Bencana, disebutkan ada tiga jenis bencana, yakni bencana alam, nonalam dan sosial. Bencana nonalam diakibatkan oleh rangkaian peristiwa nonalam berupa gagal teknologi, gagal modernisasi, epidemi, pandemi dan wabah penyakit. Contohnya seperti Wabah Corona Virus Disease (Covid-19) dikategorikan masuk dalam bencana nonalam. </i>
+              </li>
+              <li class="p-1">Dalam hal KK kurang dari 1 (satu) tahun terjadi perubahan data KK yang tidak menyebabkan perpindahan domisili, maka KK tersebut masih dapat digunakan sebagai dasar seleksi</li>
+              <li class="p-1">Perubahan data pada KK yang tidak menyebabkan perpindahan domisili sebagaimana dimaksud pada nomor 9, antara lain: <ol class="list-disc ml-4">
+                  <li class="p-1">penambahan anggota keluarga (penambahan anggota ini selain calon peserta didik);</li>
+                  <li class="p-1">pengurangan anggota keluarga (meninggal dunia, anggota keluarga pindah); atau</li>
+                  <li class="p-1">hilang atau rusak.</li>
+                </ol>
+              </li>
+              <li class="p-1">Dalam hal terdapat perubahan data pada KK sebagaimana dimaksud pada nomor 10, maka harus disertakan: <ul>
+                  <li>KK yang lama bagi perubahan data (penambahan atau pengurangan anggota keluarga) atau rusak; atau</li>
+                  <li>surat keterangan kehilangan dari kepolisian apabila KK hilang.</li>
+                </ul>
+              </li>
+              <li class="p-1">Dalam hal perubahan KK karena perpindahan domisili, maka harus disertai dengan kepindahan domisili seluruh keluarga yang ada pada KK tersebut;</li>
+              <li class="p-1">Nama orang tua/wali calon peserta didik baru yang tercantum pada KK harus sama dengan nama orang tua/wali calon peserta didik baru sama dengan nama yang tercantum pada rapor/ijazah jenjang sebelumnya, akta kelahiran, dan/atau KK sebelumnya;</li>
+              <li class="p-1">Dalam hal terdapat perbedaan nama orang tua/wali calon peserta didik baru sebagaimana dimaksud pada nomor 13, maka KK terakhir dapat digunakan jika orang tua/wali meninggal dunia atau bercerai sebelum tanggal penerbitan KK terakhir yang harus dibuktikan dengan surat kematian/surat perceraian yang diterbitkan instansi berwenang;</li>
+              <li class="p-1">Dalam rangka verifikasi kebenaran data dalam KK, Dinas Pendidikan berkoordinasi dengan Dinas Dukcapil sesuai kewenangannya;</li>
+              <li class="p-1">Bagi calon peserta didik baru yang berdomisili di lembaga pondok pesantren/panti asuhan/panti sosial mengikuti domisili lembaga, dibuktikan dengan surat keterangan domisili dari lembaga dan dilengkapi dengan surat ijin/surat keputusan pendirian lembaga dari instansi yang berwenang;</li>
+              <li class="p-1">Surat keterangan domisili yang dimaksud pada nomor 16, diterbitkan paling singkat 1 (satu) tahun sebelum tanggal pendaftaran tahap I PPDB tahun 2024 tanggal 10 Juni 2024;</li>
+              <li class="p-1">Calon peserta didik baru penyandang disabilitas telah menyelesaikan jenjang SMP/bentuk lain yang sederajat atau lanjutan dari hasil belajar yang diakui sama atau setara SMP atau MTs;</li>
+              <li class="p-1">Calon peserta didik baru jalur penyandang disabilitas mempunyai surat keterangan tentang asesmen awal (asesmen fisik/psikologis, akademik, fungsional, sensorik dan motorik) dari dokter, dokter spesialis, psikolog, dan/atau kartu Penyandang Disabilitas yang dikeluarkan oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang sosial, serta surat keterangan dari Kepala Sekolah asal yang menerangkan kelompok difabel siswa (netra, rungu, grahita, daksa, laras, down syndrome, autis, slow learning, ganda).;</li>
+              <li class="p-1">Bagi sekolah jenjang SMA/SMK yang berada di kabupaten/kota perbatasan langsung dengan luar provinsi Jawa Timur dapat menerima calon peserta didik dari luar provinsi Jawa Timur yang berbatasan selama pagu belum terpenuhi tanpa dibatasi kuota.</li>
+              <li class="p-1">Calon peserta didik baru warga negara Indonesia dan warga negera asing kelas 10 (sepuluh) SMA/SMK yang berasal dari sekolah di luar negeri selain memenuhi persyaratan pada nomor 1 dan 2 harus mendapatkan surat rekomendasi izin belajar, dan permohonan surat rekomendasi izin belajar disampaikan kepada direktur jenderal yang membidangi pendidikan anak usia dini, pendidikan dasar, dan pendidikan menengah untuk calon peserta didik baru SMA, dan direktur jenderal yang membidangi pendidikan vokasi untuk calon peserta didik baru SMK;</li>
+              <li class="p-1">Bagi sekolah yang menerima peserta didik warga negara asing wajib menyelenggarakan matrikulasi Pendidikan Bahasa Indonesia paling singkat 6 (enam) bulan yang diselenggarakan oleh sekolah yang bersangkutan;</li>
+              <li class="p-1">Dalam hal sekolah yang menerima peserta didik warga negara asing tidak melaksanakan kewajiban sebagaimana dimaksud pada nomor 22 dikenai sanksi administratif berupa peringatan tertulis;</li>
+              <li class="p-1">Calon peserta didik baru tidak sedang terlibat dalam tindak pidana dan penyalahgunaan narkoba, tidak bertato dan/atau tidak bertindik bagi calon peserta didik baru laki-laki, dan tidak bertindik bukan pada tempatnya bagi calon peserta didik baru wanita, dengan mengisi isian surat pernyataan;</li>
+              <li class="p-1">Jenjang SMK dengan bidang keahlian, program keahlian, atau kompetensi keahlian/konsentrasi keahlian tertentu dapat menetapkan tambahan persyaratan khusus dalam penerimaan peserta didik baru kelas 10 (sepuluh);</li>
+              <li class="p-1">Persyaratan khusus sebagai mana dimaksud pada nomor 25 bagi calon peserta didik baru SMK terdiri dari: <ul>
+                  <li>Calon peserta didik tidak boleh buta warna pada: <div class="not-prose -mx-4 -my-2 mt-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                      <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                        <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg"></div>
+                        <table class="min-w-full divide-y divide-gray-300">
+                          <thead class="border-b border-gray-200 bg-gray-50 font-averta">
+                            <tr>
+                              <th scope="col" class="p-3 text-center align-middle text-base font-semibold capitalize">
+                                <p>No</p>
+                              </th>
+                              <th scope="col" class="p-3 text-center align-middle text-base font-semibold capitalize">Bidang Keahlian/Program Keahlian/Konsentrasi Keahlian</th>
+                              <th scope="col" class="p-3 text-center align-middle text-base font-semibold capitalize">Keterangan</th>
+                            </tr>
+                          </thead>
+                          <tbody class="divide-y divide-typo-divider bg-white">
+                            <tr class="bg-white">
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">1</p>
+                              </td>
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Teknologi Manufaktur dan Rekayasa</p>
+                              </td>
+                              <td>
+                                <p>Semua Konsentrasi Keahlian</p>
+                              </td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">2</p>
+                              </td>
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Energi dan Pertambangan</p>
+                              </td>
+                              <td>
+                                <p>Konsentrasi Keahlian pada Program Keahlian Teknik Ketenagalistrikan</p>
+                              </td>
+                            </tr>
+                            <tr class="bg-white">
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">3</p>
+                              </td>
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Teknologi Informasi</p>
+                              </td>
+                              <td>
+                                <p>Semua Konsentrasi Keahlian</p>
+                              </td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">4</p>
+                              </td>
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Kesehatan dan Pekerjaan Sosial</p>
+                              </td>
+                              <td>
+                                <ul>
+                                  <li>
+                                    <p>- Asisten Teknik Laboratorium Medik</p>
+                                  </li>
+                                  <li>
+                                    <p>- Farmasi Klinis dan Komunitas</p>
+                                  </li>
+                                  <li>
+                                    <p>- Farmasi Industri</p>
+                                  </li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr class="bg-white">
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">5</p>
+                              </td>
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Seni dan Ekonomi Kreatif</p>
+                              </td>
+                              <td>
+                                <ul>
+                                  <li>
+                                    <p>- Seni Lukis</p>
+                                  </li>
+                                  <li>
+                                    <p>- Desain Komunikasi Visual</p>
+                                  </li>
+                                  <li>
+                                    <p>- Kriya Kreatif Batik dan Tekstil</p>
+                                  </li>
+                                  <li>
+                                    <p>- Kriya Kreatif Kulit dan Imitasi</p>
+                                  </li>
+                                  <li>
+                                    <p>- Teknik Grafika</p>
+                                  </li>
+                                  <li>
+                                    <p>- Kriya Kreatif Keramik</p>
+                                  </li>
+                                  <li>
+                                    <p>- Animasi</p>
+                                  </li>
+                                  <li>
+                                    <p>- Desain dan Produksi Busana</p>
+                                  </li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">6</p>
+                              </td>
+                              <td>
+                                <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Pariwisata</p>
+                              </td>
+                              <td>
+                                <p>Tata Kecantikan Kulit dan Rambut</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-disc ml-4 p-1">Calon peserta didik tinggi badan paling rendah 153 cm untuk wanita dan paling rendah 158 cm untuk laki-laki pada: <div class="not-prose -mx-4 -my-2 mt-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                      <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                          <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg"></div>
+                          <table class="min-w-full divide-y divide-gray-300">
+                              <thead class="border-b border-gray-200 bg-gray-50 font-averta">
+                              <tr>
+                                  <th scope="col" class="p-3 text-center align-middle text-base font-semibold capitalize">
+                                  <p>No</p>
+                                  </th>
+                                  <th scope="col" class="p-3 text-center align-middle text-base font-semibold capitalize">Bidang Keahlian/Program Keahlian/Konsentrasi Keahlian</th>
+                              </tr>
+                              </thead>
+                              <tbody class="divide-y divide-typo-divider bg-white">
+                              <tr class="bg-white">
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">1</p>
+                                  </td>
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Usaha Layanan Pariwisata</p>
+                                  </td>
+                              </tr>
+                              <tr class="bg-gray-50">
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">2</p>
+                                  </td>
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Perhotelan</p>
+                                  </td>
+                              </tr>
+                              <tr class="bg-white">
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">3</p>
+                                  </td>
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Teknik Alat Berat</p>
+                                  </td>
+                              </tr>
+                              <tr class="bg-gray-50">
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">4</p>
+                                  </td>
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Teknik Mekanik Industri</p>
+                                  </td>
+                              </tr>
+                              <tr class="bg-white">
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3 text-center" title="no">5</p>
+                                  </td>
+                                  <td>
+                                  <p class="text-base text-typo-gray truncate whitespace-nowrap p-3" title="bidangKeahlian">Teknik Pemesinan</p>
+                                  </td>
+                              </tr>
+                              </tbody>
+                          </table>
+                          </div>
+                      </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="p-1">Calon peserta didik baru jenjang SMK yang memilih Bidang Keahlian/Program Keahlian/Konsentrasi Keahlian yang mempersyaratkan persyaratan khusus sebagaimana dimaksud pada nomor 26 wajib melakukan tes kesehatan pada saat pelaksanaan pengambilan PIN di SMK yang dituju atau SMK terdekat; dan</li>
+              <li class="p-1">Pembentukan kelas industri bagi SMK dapat dilakukan setelah pelaksanaan PPDB dan dilakukan di sekolah masing-masing dan tidak boleh menambah pagu.</li>
+            </ol>
+          </div>
+          <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R1a96:-trigger-khusus" hidden id="radix-:R1a96:-content-khusus" tabindex="0" class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose max-w-none"></div>
+          <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R1a96:-trigger-afirmasi" hidden id="radix-:R1a96:-content-afirmasi" tabindex="0" class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose max-w-none"></div>
+          <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R1a96:-trigger-perpindahan-tugas" hidden id="radix-:R1a96:-content-perpindahan-tugas" tabindex="0" class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose max-w-none"></div>
+          <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R1a96:-trigger-lomba" hidden id="radix-:R1a96:-content-lomba" tabindex="0" class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose max-w-none"></div>
+          <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R1a96:-trigger-akademik" hidden id="radix-:R1a96:-content-akademik" tabindex="0" class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose max-w-none"></div>
+          <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R1a96:-trigger-zonasi" hidden id="radix-:R1a96:-content-zonasi" tabindex="0" class="mt-2 rounded-md border border-slate-200 bg-white p-6 prose max-w-none"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!-- Footer  -->
+    <footer class="bg-white dark:bg-gray-900">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+          <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="https://sibslamongan.sch.id/" class="flex items-center">
+                    <img src="assets/img/sibs.png" class="w-60 me-3" alt="Sibs Logo"/>
+                </a>
+                <p class="w-80 my-5">Sekolah para penghafal Al Qur’an berjiwa Pengusaha yang cakap dalam Teknologi. Terletak di Jl. Kebonsari Utara no. 5, Sukodadi, Lamongan, Jawa Timur dibawah Yayasan SGA.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-6 sm:gap-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Tentang SIBS</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="https://youtu.be/Vr9ZSAwMvaU?si=T7130IAmfW6tpIy5" class="hover:underline ">Tentang SIBS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://wa.me/send?phone=82142426468&text=Hallo pak, bu. saya mau tanya tentang trial class di SMP SIBS Lamongan." class="hover:underline">Trial Class</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://wa.me/send?phone=82142426468&text=Hallo pak, bu. saya mau tanya tentang islamic leader bootcamp di SMP SIBS Lamongan." class="hover:underline">Islamic Leader Boothcamp</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://wa.me/send?phone=82142426468&text=Hallo pak, bu. saya mau tanya tentang pendaftaran santri baru SMP SIBS Lamongan." class="hover:underline">Pendaftaran Santri Baru</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sosial Media</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4 flex items-center">
+                            <i class="fa-brands fa-whatsapp mr-1"></i>
+                            <a href="https://wa.me/send?phone=82142426468&text=Hallo pak, bu. saya mau tanya tentang pendaftaran santri baru SMP SIBS Lamongan." class="hover:underline">082142426468</a>
+                        </li>
+                        <li class="mb-4 flex items-center">
+                            <i class="fa-brands fa-facebook mr-1"></i>
+                            <a href="https://www.facebook.com/profile.php?id=100063748650730" class="hover:underline">sibslamongan</a>
+                        </li>
+                        <li class="mb-4 flex items-center">
+                            <i class="fa-brands fa-instagram mr-1"></i>
+                            <a href="https://www.instagram.com/smpsibslamongan/" class="hover:underline">smpsibslamongan</a>
+                        </li>
+                        <li class="mb-4 flex items-center">
+                            <i class="fa-brands fa-tiktok mr-1"></i>
+                            <a href="https://www.tiktok.com/@smpsibslamongan" class="hover:underline">smpsibslamongan</a>
+                        </li>
+                        <li class="mb-4 flex items-center">
+                            <i class="fa-regular fa-envelope me-1"></i>
+                            <a href="#" class="hover:underline">sibslamongan@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="" class="hover:underline">SIBS Lamongan</a>. All Rights Reserved.
+            </span>
+            <div class="flex mt-4 sm:justify-center sm:mt-0">
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                  <i class="fa-brands fa-facebook"></i>
+                    <span class="sr-only">Facebook page</span>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="sr-only">Twitter page</span>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span class="sr-only">WhatsApp page</span>
+              </a>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
